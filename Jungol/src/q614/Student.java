@@ -11,6 +11,9 @@ class Student {
 	public void setInfo(String school, int grade) {
 		this.school = school;
 		this.grade = grade;
-		System.out.println(this.grade + " grade in " + this.school + " School");
+	}
+	
+	public void print() {
+		System.out.println(grade + " grade in " + school + " School");
 	}
 }
