@@ -8,10 +8,7 @@ public class Main{
         int n = sc.nextInt();
         sc.close();
         
-        if( n <0 ){
-            System.out.println(n);
-            System.out.println("minus");
-        }
-        else { System.out.println(n); }
+        System.out.println(n);
+        if( n <0 ){ System.out.println("minus"); }
     }
 }
