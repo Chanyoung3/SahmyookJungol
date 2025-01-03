@@ -14,7 +14,10 @@ public class Main {
 				char ch = (char) inum;
 				System.out.println(ch);
 			}
-			else break;
+			else {
+				sc.close();
+				break;
+			}
 		}
 	}
 }
