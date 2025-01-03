@@ -8,6 +8,6 @@ public class Main {
 		String sw = "My weight";
 		double dw = 68.6;
 		
-		System.out.printf(sh + "\n" + ih + "\n" + sw  + "\n%.6f", dw);
+		System.out.printf(sh + "\n" + ih + "\n" + sw  + "\n%.6f\n", dw);
 	}
 }
